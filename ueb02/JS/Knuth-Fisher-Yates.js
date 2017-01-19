@@ -10,6 +10,10 @@ function main(){
 
 }
 
+function restart(){
+    clearFields();
+}
+
 function startGame() {
     try{
         var myMise = parseInt(document.getElementById("Mise").value);
@@ -53,6 +57,7 @@ function clearFields(){
     document.getElementById("C1").value = "";
     document.getElementById("C2").value = "";
     document.getElementById("C3").value = "";
+    document.getElementById("gains").value = "";
 
 }
 
