@@ -1,16 +1,18 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-image: url("bg.jpg");
+    color: white;
 }
 
 #page-wrap {
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
 
 }
 
 .top{
     border: solid black;
+
 }
 .bot{
 

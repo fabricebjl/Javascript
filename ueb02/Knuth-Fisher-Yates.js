@@ -49,7 +49,7 @@ function startGame() {
 
 function clearFields(){
     document.getElementById("Mise").value = "";
-    document.getElementById("PM").value = 20;
+    document.getElementById("PM").value = 200;
     document.getElementById("C1").value = "";
     document.getElementById("C2").value = "";
     document.getElementById("C3").value = "";
