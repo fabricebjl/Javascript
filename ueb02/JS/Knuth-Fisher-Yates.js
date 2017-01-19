@@ -29,11 +29,11 @@ function startGame() {
             if(win == 0){
                 document.getElementById("PM").value = myPM + myMise * 2;
                 document.getElementById("gains").value = myMise * 2;
-                alert("Vous venez de gagner " + myMise * 2 + " !")
+                alert("Gewinn: " + myMise * 2 + " !")
             }else if(win == 1){
                 document.getElementById("PM").value = myPM + myMise;
                 document.getElementById("gains").value = myMise;
-                alert("Vous venez de gagner " + myMise + " !")
+                alert("Gewinn: " + myMise + " !")
             }else{
                 document.getElementById("gains").value = 0;
             }
