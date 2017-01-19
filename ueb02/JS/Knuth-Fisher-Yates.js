@@ -59,11 +59,11 @@ function clearFields(){
 function displayCards(){
 
     //document.getElementById("C1").value = cardsOne[3];
-    document.getElementById("C1").src = "./cards/" + cardsOne[3] + ".png"
+    document.getElementById("C1").src = "./IMG/cards/" + cardsOne[3] + ".png"
     //document.getElementById("C2").value = cardsTwo[3];
-    document.getElementById("C2").src = "./cards/" + cardsTwo[3] + ".png"
+    document.getElementById("C2").src = "./IMG/cards/" + cardsTwo[3] + ".png"
     //document.getElementById("C3").value = cardsThree[3];
-    document.getElementById("C3").src = "./cards/" + cardsThree[3] + ".png"
+    document.getElementById("C3").src = "./IMG/cards/" + cardsThree[3] + ".png"
 
 }
 
