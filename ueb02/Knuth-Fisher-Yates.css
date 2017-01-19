@@ -1,0 +1,21 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("bg.jpg");
+}
+
+#page-wrap {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.top{
+    border: solid black;
+}
+.bot{
+
+}
+
+#C1, #C2, #C3{
+    padding-left: 10%;
+}
